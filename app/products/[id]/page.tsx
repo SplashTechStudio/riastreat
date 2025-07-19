@@ -86,7 +86,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
     const message = `Hi, I'd like to order ${quantity} ${product.name} doughnut${quantity > 1 ? "s" : ""} for a total of $${(product.price * quantity).toFixed(2)}.`
 
     // Replace with your actual WhatsApp number
-    const phoneNumber = "1234567890"
+    const phoneNumber = "+2348174010260"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
   }
