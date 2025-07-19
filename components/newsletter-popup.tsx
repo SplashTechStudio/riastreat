@@ -35,7 +35,7 @@ export default function NewsletterPopup() {
 
     // Send to WhatsApp
     const message = `Hi! I'd like to subscribe to your newsletter. Name: ${name}, Phone: ${phone}. Please keep me updated on new recipes and offers!`
-    const phoneNumber = "1234567890"
+    const phoneNumber = "+2348174010260"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
 

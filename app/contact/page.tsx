@@ -36,7 +36,7 @@ Email: ${formData.email}
 Phone: ${formData.phone}
 Message: ${formData.message}`
 
-    const phoneNumber = "1234567890"
+    const phoneNumber = "+2348174010260"
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
     window.open(whatsappUrl, "_blank")
 
