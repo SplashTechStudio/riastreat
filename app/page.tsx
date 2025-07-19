@@ -9,13 +9,13 @@ import Link from "next/link"
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen flex-col relative">
+    <div className="flex w-full min-h-screen flex-col relative">
       <BackgroundAnimation />
       <NewsletterPopup />
       <SharedHeader />
       <main className="flex-1 relative z-10">
         <PromoBanner />
-        <section className="container py-8 md:py-12">
+        <section className="container mx-auto py-8 md:py-12">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
@@ -33,12 +33,12 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="container py-8 md:py-12">
+        <section className="container mx-autp w-full py-8 md:py-12">
           <h2 className="mb-8 text-2xl font-bold tracking-tight text-center">Our Recipe</h2>
           <ProductGrid />
         </section>
-        <section className="bg-muted py-8 md:py-12">
-          <div className="container">
+        <section className="bg-muted w-full py-8 md:py-12">
+          <div className="container mx-auto">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <div className="rounded-lg border bg-card p-6 shadow-sm">
                 <div className="flex items-center gap-4">
