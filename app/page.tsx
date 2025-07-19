@@ -33,9 +33,11 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section className="container mx-autp w-full py-8 md:py-12">
-          <h2 className="mb-8 text-2xl font-bold tracking-tight text-center">Our Recipe</h2>
+        <section className=" w-full py-8 md:py-12">
+          <div className="container mx-auto">
+            <h2 className="mb-8 text-2xl font-bold tracking-tight text-center">Our Recipe</h2>
           <ProductGrid />
+          </div>
         </section>
         <section className="bg-muted w-full py-8 md:py-12">
           <div className="container mx-auto">
