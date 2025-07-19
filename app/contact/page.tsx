@@ -103,8 +103,7 @@ Message: ${formData.message}`
                     </div>
                     <div>
                       <h3 className="font-semibold text-lg">Email Me</h3>
-                      <p className="text-gray-600">victoria@riastreat.com</p>
-                      <p className="text-gray-600">orders@riastreat.com</p>
+                      <p className="text-gray-600">riastreat20@gmail.com</p>
                     </div>
                   </div>
 
@@ -117,7 +116,6 @@ Message: ${formData.message}`
                       <div className="text-gray-600 space-y-1">
                         <p>Monday - Friday: 7:00 AM - 8:00 PM</p>
                         <p>Saturday: 8:00 AM - 9:00 PM</p>
-                        <p>Sunday: 9:00 AM - 6:00 PM</p>
                       </div>
                     </div>
                   </div>
